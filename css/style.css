@@ -698,7 +698,7 @@ p.capitalize:first-letter {
 }
 
 .contact-form .form-send button  {
-  background: #74c9be;
+  background: #cd6ca5;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -707,7 +707,7 @@ p.capitalize:first-letter {
 }
 
 .contact-form .form-send button:hover {
-  background: #6fdbcd;
+  background: #cd6ca5;
 }
 
 .contact-form .validate {
@@ -733,7 +733,7 @@ p.capitalize:first-letter {
   border-radius: 50%;
   width: 24px;
   height: 24px;
-  border: 3px solid #18d26e;
+  border: 3px solid #cd6ca5;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -776,7 +776,7 @@ p.capitalize:first-letter {
 .contact-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: #cd6ca5;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -797,7 +797,7 @@ p.capitalize:first-letter {
 }
 
 #copyrights a {
-  color: #74c9be;
+  color: #cd6ca5;
 }
 
 .credits {
