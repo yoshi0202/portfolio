@@ -803,3 +803,17 @@ p.capitalize:first-letter {
 .credits {
   color: #999;
 }
+
+.skill-container {
+  height: 200px;
+}
+
+.skill-img {
+  width: 30%;
+  height: 30%;
+}
+.skill-img-etc {
+  width: 17%;
+  height: 17%;
+  margin: 1%;
+}
