@@ -27,6 +27,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+
+
 /* Paragraph & Typographic */
 p {
 	line-height: 28px;
@@ -170,7 +172,7 @@ hr-d {
 	display: block;
 	height: 1px;
 	border: 0;
-	border-top: 1px dashed #ccc;
+	border-top: 1px dashed #cd6ca5;
 	margin: 1em 0;
 	padding: 0;
 }
@@ -786,7 +788,7 @@ p.capitalize:first-letter {
 /* Copyrights */
 
 #copyrights {
-  background: #282727;
+  background: #745725;
   padding: 20px 0;
   text-align: center;
 }
@@ -816,4 +818,23 @@ p.capitalize:first-letter {
   width: 17%;
   height: 17%;
   margin: 1%;
+}
+
+.icon-img {
+  width: 65%;
+  max-width: 65%;
+  height: auto;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-eq-height {
+  display: flex;
+  flex-wrap: wrap;
 }
