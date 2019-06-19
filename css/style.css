@@ -133,7 +133,9 @@ border-bottom-width: 0px;
 	font-weight: 700;
 	margin-top: 15px;
 }
-
+.work-title {
+	color: #745725;
+}
 .desc p > i {
 	font-size: 16px;
 	color: #979797;
@@ -806,8 +808,8 @@ p.capitalize:first-letter {
   color: #999;
 }
 
-.skill-container {
-  height: 200px;
+.skill-details {
+  height: 300px;
 }
 
 .skill-img {
@@ -837,4 +839,13 @@ p.capitalize:first-letter {
 .row-eq-height {
   display: flex;
   flex-wrap: wrap;
+}
+
+.work-img {
+  width: 50%;
+}
+@media (max-width: 1200px) {
+  .etc-container {
+    margin-bottom:7%;
+  }
 }
