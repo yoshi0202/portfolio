@@ -809,7 +809,8 @@ p.capitalize:first-letter {
 }
 
 .skill-details {
-  height: 300px;
+  height: 400px;
+  position: relative;
 }
 
 .skill-img {
@@ -831,9 +832,9 @@ p.capitalize:first-letter {
 }
 
 .icon-container {
-  display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 10px;
 }
 
 .row-eq-height {
@@ -844,8 +845,42 @@ p.capitalize:first-letter {
 .work-img {
   width: 50%;
 }
-@media (max-width: 1200px) {
+
+.apache {
+  height: 50px;
+}
+@media screen and (min-width:600px) and (max-width:1200px) {
   .etc-container {
     margin-bottom:7%;
   }
+  .icon-img {
+    width: 40%;
+    max-width: 40%;
+  }
+  .apache {
+	height: 100px;
+  }
+}
+
+@media screen and (max-width:599px) {
+  .etc-container {
+    margin-bottom:7%;
+  }
+  .icon-img {
+    width: 50%;
+    max-width: 50%;
+  }
+  .skill-details {
+	height: 400px;
+  }
+}
+
+.fab,.far{
+  color: #745725;
+  margin: 3px;
+}
+
+.skill-hr {
+  position: absolute;
+  bottom: 0;
 }
