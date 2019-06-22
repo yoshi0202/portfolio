@@ -127,27 +127,27 @@ border-bottom-width: 0px;
 }
 
 /* Description Styling / Used in portfolio & Blog images footnotes */
-.desc p {
+/* .desc p {
 	font-family: 'Ruda', sans-serif;
 	font-size: 16px;
 	font-weight: 700;
 	margin-top: 15px;
-}
+} */
 .work-title {
 	color: #745725;
 }
-.desc p > i {
+/* .desc p > i {
 	font-size: 16px;
 	color: #979797;
-}
+} */
 
-.desc p > i:hover {
+/* .desc p > i:hover {
 	font-size: 16px;
 	color: #e74c3c;
 	cursor: pointer;
-}
+} */
 
-.desc p.lead {
+/* .desc p.lead {
 	font-family: 'Ruda', sans-serif;
 	font-weight: 400;
 	font-size: 14px;
@@ -166,7 +166,7 @@ border-bottom-width: 0px;
 .desc p.time > i {
 	font-size: 12px;
 }
-
+ */
 
 /* Dashed Separator */
 
@@ -808,7 +808,7 @@ p.capitalize:first-letter {
   color: #999;
 }
 
-.skill-details {
+.skill-details, .desc {
   height: 400px;
   position: relative;
 }
@@ -877,10 +877,20 @@ p.capitalize:first-letter {
 
 .fab,.far{
   color: #745725;
-  margin: 3px;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.skill-width-adjust {
+  position: absolute;
+  bottom: 0;
+  width: calc(100% - 30px);
 }
 
 .skill-hr {
-  position: absolute;
-  bottom: 0;
+  border-bottom: 1px solid black;
+}
+
+.title-ex {
+  font-size: 1.3em;
 }
