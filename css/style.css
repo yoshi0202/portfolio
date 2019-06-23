@@ -808,8 +808,13 @@ p.capitalize:first-letter {
   color: #999;
 }
 
-.skill-details, .desc {
-  height: 400px;
+.skill-details {
+  height: 320px;
+  position: relative;
+}
+
+.desc {
+  height: 470px;
   position: relative;
 }
 
@@ -871,7 +876,11 @@ p.capitalize:first-letter {
     max-width: 50%;
   }
   .skill-details {
-	height: 400px;
+    height: 400px;
+  }
+
+  .desc {
+    height: 450px;
   }
 }
 
